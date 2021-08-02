@@ -1,0 +1,24 @@
+{
+  "name": "budget-tracker",
+  "version": "1.0.0",
+  "description": "Acceptance Criteria\r GIVEN a budget tracker without an internet connection\r WHEN the user inputs an expense or deposit\r THEN they will receive a notification that they have added an expense or deposit\r WHEN the user reestablishes an internet connection\r THEN the deposits or expenses added while they were offline are added to their transaction history and their totals are updated",
+  "main": "server.js",
+  "dependencies": {
+    "mongoose": "^5.13.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MBadi089/Budget-Tracker.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MBadi089/Budget-Tracker/issues"
+  },
+  "homepage": "https://github.com/MBadi089/Budget-Tracker#readme"
+}
